@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>登录</title>
+<link href="/static/Wopop_files/style_log.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/static/Wopop_files/style.css">
+<link rel="stylesheet" type="text/css" href="/static/Wopop_files/userpanel.css">
+<link rel="stylesheet" type="text/css" href="/static/login.css">
+</head>
+
+<body class="login" mycollectionplug="bind">
+<div class="login_m">
+<div class="login_logo"><img src="/static/Wopop_files/logo.png" width="196" height="46"></div>
+<div class="login_boder">
+        <div class="login_padding" id="login_model">
+            <form action="{% url 'login' %}" method="post">
+                {% csrf_token %}
+                {% for field in login_form %}
+                    <label for="{{ field.id_for_label }}" class="lable-name">{{ field.label }}</label><br/>
+                    {{ field }}
+                {% endfor %}
+                <input  class="sub-button" type="submit" value="登录" />
+                <a href="{% url 'register' %}"><input class="reg-btn" type="button" value="注册"/></a>
+            </form>
+        </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+div{
+    display: block;
+}
+.list {
+    margin-bottom: 15px;
+}
+.list ul {
+    list-style-type:none;
+    padding-left: 0px;
+}
+.list ul li {
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+}
+.list .thumbnail {
+    display: block;
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    margin-top: 1.5em;
+    padding: 0px;
+}
+.list .thumbnail img {
+    max-width: 100%;
+    display: block;
+}
+.list-content {
+    margin-left: 25%;
+    padding-left: 15px;
+    position: relative;
+}
+.list-title {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.list-meta {
+    line-height: 25px;
+    height: 25px;
+    width: 100%;
+}
+.list-summary {
+    line-height: 1.8em;
+    color: #999;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+@media screen and (max-width: 680px)
+{
+    .list ul li {
+    padding: 10px;
+}
+}
+.latest-content {
+    position: relative;
+    min-height: 500px;
+}
+@media screen and (max-width: 680px) {
+    .latest-content{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+.list-title {
+    line-height: 24px;
+    font-size: 16px;
+}
+}
+.list-title a {
+    color: #666;
+    text-decoration: none;
+    transition: all ease .5s;
+}
+@media screen and (max-width: 480px){
+.list-summary {
+    display: none;
+}
+}
+@media screen and (max-width: 480px){
+.list-meta span {
+    margin: 0 0 0 5px;
+    font-size: 12px;
+}
+}
+.list-meta span {
+    margin: 0 15px 0 0;
+    color: #999;
+    cursor: pointer;
+}
+@media screen and (max-width: 680px){
+.list-meta span.read-num {
+    display: none;
+}
+}
+h4{
+    margin-top: 20px;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+.page-bottom {
+    width: 100%;
+    clear: both;
+    background: #e7e7e7;
+    margin-top: 1.5em;
+    padding: 1em 0 0;
+    color: #777;
+}
+div.carousel{
+    width: 100%;
+}
+div.panel-default{
+    width: 350px;
+    margin-bottom: 80px;
+}
+div.panel-body ul{
+    list-style-type:none;
+    padding-left: 0px;
+}
+div.panel-body ul li{
+    margin-bottom: 2px;
+}
+.read_detail{
+    float: right;
+}
+@media screen and (max-width: 680px){
+.list-meta span.read_detail a{
+    display: none;
+}
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: #EEEEEE;
+}
+div.content-wrap{
+    width: 100%;
+    float: left;
+    background-color:#FFFFFF;
+}
+
+div.article-header{
+    padding: 2px 20px 12px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+div.article-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text-muted{
+    margin-right:5px;
+}
+.article-content {
+    text-indent: 2em;
+}
+div.blog-more{
+    margin-top: 10px;
+}
+div.blog-more .move{
+    float: right;
+}

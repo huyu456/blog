@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>登录</title>
+<link href="/static/register.css" rel="stylesheet" type="text/css" media="all"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+<h2>用户注册</h2>
+<div class="signup">
+		<form method="post" action="{% url 'register' %}">
+            {% csrf_token %}
+            {% for field in reg_form %}
+                    <label for="{{ field.id_for_label }}" class="lable-name">{{ field.label }}</label><br/>
+                    {{ field }}
+            {% endfor %}
+            <input type="submit" value="注册">
+        </form>
+</div>
+</body>
+</html>

@@ -13,7 +13,7 @@ cryptography==2.1.4
 cssselect==1.0.3
 cycler==0.10.0
 defusedxml==0.5.0
-Django==2.0
+Django==2.0.12
 django-bootstrap3==10.0.1
 django-changuito==1.2
 django-ckeditor==5.4.0

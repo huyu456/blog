@@ -70,7 +70,7 @@ u-msgpack-python==2.4.1
 urllib3==1.22
 virtualenv==15.2.0
 w3lib==1.19.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 WsgiDAV==2.2.4
 yarl==1.1.1
 zope.interface==4.4.3

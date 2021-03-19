@@ -27,7 +27,7 @@ idna==2.6
 idna-ssl==1.0.0
 incremental==17.5.0
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 kiwisolver==1.0.1
 lxml==4.2.1
 markdown2==2.3.5
